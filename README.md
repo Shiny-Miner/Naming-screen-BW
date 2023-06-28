@@ -14,7 +14,6 @@ animations.
 To build the code and insert it into your 
 FR rom you'll require `make`, `armips` and `devkitARM`.
 (armips, gbagfx and preproc are included in the project itself in tools folder, no need to install them.)
-
 ### Configuration 
 
 To configure the compile options edit `config.mk`:
@@ -32,6 +31,8 @@ code to be inserted in rom.
 
 - Clone or download the repository and copy your FR rom 
 to this directory and rename it to `BPRE.gba`.
+Do not forget to give path to Gnu make in user variables , just edit the Path to the GnuWin32's bin like here my path is C:\GnuWin32\bin
+
 - Before initiating the build, add `DEVKITARM` to environment by running:
 
 ```powershell
