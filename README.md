@@ -38,9 +38,9 @@ Do not forget to give path to Gnu make in user variables , just edit the Path to
 ```powershell
  set DEVKITARM=path\to\devkitARM
 ```
-- Once ready, open command promt/powershell and run\write:
+- Once ready, open command promt/powershell and write:
 ```powershell
-... make
+make
 ```
 This should generate `build/rom_BPRE.gba` rom with code inserted.
 
